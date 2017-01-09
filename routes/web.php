@@ -105,8 +105,10 @@ Route::group(['middleware'=>['admin']],function(){
 
 
 //REFERENCES
-// multiple methods in request
+
 Route::match(['get','post'],'/',function(){
+
+  // multiple methods in request
 
 });
 
