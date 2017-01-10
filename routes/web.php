@@ -108,9 +108,7 @@ Route::group(['middleware'=>['admin']],function(){
 
 Route::match(['get','post'],'/',function(){
 
-  // multiple methods in request
-  
+  // multiple methods in request can be done here
+  //Testing git
 
 });
-
-g
