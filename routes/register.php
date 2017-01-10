@@ -95,16 +95,6 @@ if(isset($_POST['uname']) && !empty($_POST['uname']) && isset($_POST['uemail']) 
   <!-- /.form-box -->
 </div>
 <!-- /.register-box -->
-<?php include("includes/index_footer.php"); ?>
 
-<script type="text/javascript">
-function validate()
-{ 
-	if($("#upwd").val() != $("#cupwd").val() )
-	{
-		alert("Passwords do not match.");
-		return false;
-	}
-	
-}
-</script>
+
+adding new text with rtest message on git
