@@ -109,6 +109,8 @@ Route::group(['middleware'=>['admin']],function(){
 Route::match(['get','post'],'/',function(){
 
   // multiple methods in request
+  
 
 });
 
+g
